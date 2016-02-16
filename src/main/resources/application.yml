@@ -1,12 +1,22 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/mezmur
-    username: mezmur
-    password: mezmur
+    url: jdbc:postgresql://ec2-54-83-29-133.compute-1.amazonaws.com:5432/ddlco1doql4nc2
+    username: snrjyhtrasivcb
+    password: eFRKurGnDTrtJhW6rp1lHyyPWx
   jpa.database-platform: org.hibernate.dialect.PostgreSQLDialect
   jpa.show-sql: false
   jpa.hibernate.ddl-auto: create
+
+#spring:
+#  datasource:
+#    driver-class-name: org.postgresql.Driver
+#    url: jdbc:postgresql://localhost:5432/mezmur
+#    username: mezmur
+#    password: mezmur
+#  jpa.database-platform: org.hibernate.dialect.PostgreSQLDialect
+#  jpa.show-sql: false
+#  jpa.hibernate.ddl-auto: create
 
 #  Connection Settings
 
