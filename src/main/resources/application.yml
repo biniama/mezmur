@@ -7,3 +7,16 @@ spring:
   jpa.database-platform: org.hibernate.dialect.PostgreSQLDialect
   jpa.show-sql: false
   jpa.hibernate.ddl-auto: create
+
+#  Connection Settings
+
+#   Host
+#     ec2-54-83-29-133.compute-1.amazonaws.com
+#   Database
+#     ddlco1doql4nc2
+#   User
+#     snrjyhtrasivcb
+#   Port
+#     5432
+#   Password
+#     eFRKurGnDTrtJhW6rp1lHyyPWx
