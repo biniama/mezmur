@@ -19,8 +19,12 @@ public class MezmurApiApplication {
     CommandLineRunner runner(MezmurRepository mr) {
 
         return args -> {
-            mr.save(new Mezmur("Title One", "Hello" + " World" + "!"));
-            mr.save(new Mezmur("Title Two", "Hello" + " World Again" + "!"));
+            mr.save(new Mezmur("ሰራዊተ መላእክቲሁ", "ሰራዊተ መላእክቲሁ\n" +
+                    "ለመድኃኔዓለም ይቀውሙ\n" +
+                    "የመድኃኔዓለም አገልጋዮቹ\n" +
+                    "ይቆማሉ ከፊቱ መላእክቱ"));
+            mr.save(new Mezmur("በጎል ሰከበ", "በጎል ሰከበ በአጽርቅት ተጠብለለ ኀደረ ማኅፀነ ድንግል\n" +
+                    "እፎ ተሴሰየ(፪) ሀሊበ ከመህጻናት ተሴሰይ"));
 
             mr.findAll().forEach(System.out::println);
         };

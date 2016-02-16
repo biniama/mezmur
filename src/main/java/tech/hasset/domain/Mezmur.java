@@ -1,5 +1,7 @@
 package tech.hasset.domain;
 
+import org.springframework.core.env.Environment;
+
 import javax.persistence.*;
 import java.math.BigInteger;
 
