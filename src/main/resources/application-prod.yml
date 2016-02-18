@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://ec2-54-83-29-133.compute-1.amazonaws.com:5432/ddlco1doql4nc2
+    url: jdbc:postgresql://ec2-54-83-29-133.compute-1.amazonaws.com:5432/ddlco1doql4nc2?sslmode=require
     username: snrjyhtrasivcb
     password: eFRKurGnDTrtJhW6rp1lHyyPWx
   jpa.database-platform: org.hibernate.dialect.PostgreSQLDialect
